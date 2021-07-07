@@ -1,0 +1,21 @@
+{
+  "name": "electron-custom-app-template",
+  "version": "1.1.0",
+  "author": "Toby56",
+  "description": "My Electron application description",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "license": "MIT",
+  "repository": "https://gitlab.com/Toby56/orbit",
+  "dependencies": {
+    "electron-window-state": "^5.0.3"
+  },
+  "devDependencies": {
+    "electron": "^9.4.0",
+    "electron-builder": "^22.4.1"
+  }
+}
